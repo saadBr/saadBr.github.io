@@ -5,21 +5,21 @@ const certifications = [
     title: "Microsoft Azure Fundamentals (AZ-900)",
     issuer: "Microsoft",
     year: "Mars 2025",
-    link: "https://learn.microsoft.com/en-us/users/saadelmabrouk-8787/transcript/d493qf5k431n39k?wt.mc_id=pvue_msft_webpage_wwl+&source=docs&tab=credentials-tab", 
+    link: "https://learn.microsoft.com/en-us/users/saadelmabrouk-8787/transcript/d493qf5k431n39k?wt.mc_id=pvue_msft_webpage_wwl+&source=docs&tab=credentials-tab",
     status: "completed",
   },
   {
     title: "ÖSD German Certificate (B2)",
     issuer: "ÖSD",
     year: "April 2022",
-    link: "https://drive.google.com/file/d/1p8FchmsYijpesUk8nCxqGD3oeFllgv44/view", 
+    link: "https://drive.google.com/file/d/1p8FchmsYijpesUk8nCxqGD3oeFllgv44/view",
     status: "completed",
   },
   {
     title: "Java SE 21 Developer",
     issuer: "Oracle",
     year: "In Progress",
-    link: null, 
+    link: null,
     status: "in-progress",
   },
 ];
@@ -27,7 +27,7 @@ const certifications = [
 export default function Certifications() {
   return (
     <section id="certifications" className="py-20 bg-gray-50">
-      <div className="max-w-4xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center mb-12 border-b-4 border-yellow-400 inline-block">
           Certifications
         </h2>
@@ -40,19 +40,11 @@ export default function Certifications() {
               }`}
             >
               <div>
-                <h3 className="text-lg font-semibold">{cert.title}</h3>
-                <p className="text-gray-600">
-                  {cert.issuer} • {cert.year}
-                </p>
+                <h3 className="text-xl font-semibold">{cert.title}</h3>
+                <p className="text-gray-600">{cert.issuer} • {cert.year}</p>
               </div>
-
               {cert.link ? (
-                <a
-                  href={cert.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-yellow-500 hover:text-yellow-600 text-2xl"
-                >
+                <a href={cert.link} target="_blank" rel="noopener noreferrer" className="text-yellow-500 hover:text-yellow-600 text-2xl">
                   <FaCertificate />
                 </a>
               ) : (

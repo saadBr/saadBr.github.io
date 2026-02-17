@@ -18,22 +18,18 @@ const skills = [
   { name: "Chatbot", icon: <SiOpenai className="text-gray-800 text-3xl" /> },
   { name: "Agent AI", icon: <SiLangchain className="text-green-500 text-3xl" /> },
   { name: "Flutter", icon: <SiFlutter className="text-blue-400 text-3xl" /> },
-  
 ];
 
-function Skills() {
+export default function Skills() {
   return (
-    <section id="skills" className="py-24 px-8 bg-gray-50 text-gray-900">
-      <div className="max-w-6xl mx-auto">
+    <section id="skills" className="py-20 bg-gray-50 text-gray-900">
+      <div className="max-w-6xl mx-auto px-6">
         <h2 className="text-4xl font-extrabold mb-12 text-center border-b-4 border-yellow-400 inline-block">
           Skills
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8">
           {skills.map((skill) => (
-            <div
-              key={skill.name}
-              className="p-6 bg-white rounded-xl shadow hover:shadow-lg flex flex-col items-center justify-center transition"
-            >
+            <div key={skill.name} className="p-6 bg-white rounded-xl shadow hover:shadow-lg flex flex-col items-center transition">
               {skill.icon}
               <p className="mt-3 font-semibold">{skill.name}</p>
             </div>
@@ -43,5 +39,3 @@ function Skills() {
     </section>
   );
 }
-
-export default Skills;

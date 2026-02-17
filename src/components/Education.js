@@ -30,13 +30,8 @@ export default function Education() {
         </h2>
         <div className="space-y-6">
           {education.map((edu, index) => (
-            <div
-              key={index}
-              className="bg-white shadow-md rounded-lg p-6 flex items-start space-x-4 hover:shadow-lg transition"
-            >
-              {/* Icon */}
+            <div key={index} className="bg-white shadow-md rounded-lg p-6 flex items-start space-x-4 hover:shadow-lg transition">
               <div className="flex-shrink-0">{edu.icon}</div>
-              {/* Content */}
               <div>
                 <h3 className="text-xl font-semibold">{edu.title}</h3>
                 <p className="text-gray-600">{edu.institution}</p>

@@ -55,8 +55,7 @@ const projects = [
   },
   {
     title: "Weather Stream App (Kafka)",
-    description:
-      "Kafka Streams app that processes weather data in real-time.",
+    description: "Kafka Streams app that processes weather data in real-time.",
     tech: ["Kafka", "Spring Boot"],
     github:
       "https://github.com/saadBr/BigData/tree/main/TP_KafkaStream/weatherStreamApp",
@@ -69,9 +68,9 @@ export default function Projects() {
     dots: true,
     infinite: true,
     speed: 800,
-    autoplay: true,              
-    autoplaySpeed: 2000,        
-    pauseOnHover: true,         
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
     slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
@@ -89,23 +88,24 @@ export default function Projects() {
         <Slider {...settings}>
           {projects.map((project, index) => (
             <div key={index} className="px-3">
-              <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col h-[460px] justify-between text-center">
-                <div className="mb-4 flex justify-center">{project.icon}</div>
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
-                <p className="text-gray-600 text-sm mb-4 px-2">
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap justify-center gap-2 mb-4">
-                  {project.tech.map((tech, i) => (
-                    <span
-                      key={i}
-                      className="bg-gray-200 text-xs px-3 py-1 rounded-full"
-                    >
-                      {tech}
-                    </span>
-                  ))}
+              <div className="bg-white shadow-lg rounded-lg p-6 flex flex-col h-[480px] justify-between text-center">
+                <div>
+                  <div className="mb-4 flex justify-center">{project.icon}</div>
+                  <h3 className="text-lg font-bold mb-2">{project.title}</h3>
+                  <p className="text-gray-600 text-sm mb-4 px-2">
+                    {project.description}
+                  </p>
+                  <div className="flex flex-wrap justify-center gap-2 mb-6">
+                    {project.tech.map((tech, i) => (
+                      <span
+                        key={i}
+                        className="bg-gray-200 text-xs px-3 py-1 rounded-full"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-                {/* Links */}
                 <div className="flex justify-center space-x-4">
                   <a
                     href={project.github}
