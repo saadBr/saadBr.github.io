@@ -1,19 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6ef9940.css",
-    "main.js": "/static/js/main.06dd48a5.js",
+    "main.css": "/static/css/main.7c4fce7d.css",
+    "main.js": "/static/js/main.0a0fc713.js",
     "static/js/453.ad7768ec.chunk.js": "/static/js/453.ad7768ec.chunk.js",
+    "static/media/Timlaline.JPG": "/static/media/Timlaline.557a0ba1aa315b69aa4c.JPG",
+    "static/media/Chefchaouen.JPG": "/static/media/Chefchaouen.8cabd2152065f6deb333.JPG",
+    "static/media/Zghira.JPEG": "/static/media/Zghira.ac926448626cccb76aba.JPEG",
+    "static/media/Sidi Boukhadra.JPG": "/static/media/Sidi Boukhadra.ec98c81fc62ad0fdf3ee.JPG",
+    "static/media/Fes.JPG": "/static/media/Fes.2ac1d0135c04a799e61b.JPG",
+    "static/media/Monte Blanco.JPG": "/static/media/Monte Blanco.b70aa799d67fb17a14fb.JPG",
+    "static/media/Rabat.JPG": "/static/media/Rabat.cfc2d802dd48e045c056.JPG",
+    "static/media/nador.JPEG": "/static/media/nador.a28d0e04cf2c89b418ca.JPEG",
+    "static/media/casablanca.JPEG": "/static/media/casablanca.0dfca3f95bead5edb863.JPEG",
+    "static/media/Imsfrane.JPEG": "/static/media/Imsfrane.5d3d7b389a820ca0eee2.JPEG",
+    "static/media/Toubkal.JPEG": "/static/media/Toubkal.6aa6e14e2818b43724a6.JPEG",
+    "static/media/hero.JPEG": "/static/media/hero.6aa6e14e2818b43724a6.JPEG",
+    "static/media/Resume.pdf": "/static/media/Resume.5874cba8425aefb2ca39.pdf",
+    "static/media/dakhla.JPEG": "/static/media/dakhla.f0b2c76f69c8c1759120.JPEG",
+    "static/media/morocco.svg": "/static/media/morocco.8e983f719917445ba73432a00b22d413.svg",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.b6ef9940.css.map": "/static/css/main.b6ef9940.css.map",
-    "main.06dd48a5.js.map": "/static/js/main.06dd48a5.js.map",
+    "main.7c4fce7d.css.map": "/static/css/main.7c4fce7d.css.map",
+    "main.0a0fc713.js.map": "/static/js/main.0a0fc713.js.map",
     "453.ad7768ec.chunk.js.map": "/static/js/453.ad7768ec.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6ef9940.css",
-    "static/js/main.06dd48a5.js"
+    "static/css/main.7c4fce7d.css",
+    "static/js/main.0a0fc713.js"
   ]
 }
